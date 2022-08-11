@@ -4,7 +4,7 @@
 #
 Name     : pypi-freezegun
 Version  : 1.2.1
-Release  : 37
+Release  : 38
 URL      : https://files.pythonhosted.org/packages/89/a9/ebf3d233893752ca282d91c88103facf6d7d05ce22978829e4e0cbc4113d/freezegun-1.2.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/89/a9/ebf3d233893752ca282d91c88103facf6d7d05ce22978829e4e0cbc4113d/freezegun-1.2.1.tar.gz
 Summary  : Let your Python tests travel through time
