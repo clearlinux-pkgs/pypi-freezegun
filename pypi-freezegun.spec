@@ -7,7 +7,7 @@
 #
 Name     : pypi-freezegun
 Version  : 1.3.1
-Release  : 48
+Release  : 49
 URL      : https://files.pythonhosted.org/packages/76/49/1b9dd9480d29dc8d226772fe4dce6991ac013739d0c1949bcd46fb6cd7d4/freezegun-1.3.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/76/49/1b9dd9480d29dc8d226772fe4dce6991ac013739d0c1949bcd46fb6cd7d4/freezegun-1.3.1.tar.gz
 Summary  : Let your Python tests travel through time
@@ -75,7 +75,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1701898907
+export SOURCE_DATE_EPOCH=1702067726
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
