@@ -6,10 +6,10 @@
 # autospec commit: 5905be9
 #
 Name     : pypi-freezegun
-Version  : 1.5.0
-Release  : 53
-URL      : https://files.pythonhosted.org/packages/db/0c/c4623ea47ac00387dcb857f7ddec57119a001cf09d10cebc4c29870f5fa1/freezegun-1.5.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/db/0c/c4623ea47ac00387dcb857f7ddec57119a001cf09d10cebc4c29870f5fa1/freezegun-1.5.0.tar.gz
+Version  : 1.5.1
+Release  : 54
+URL      : https://files.pythonhosted.org/packages/2c/ef/722b8d71ddf4d48f25f6d78aa2533d505bf3eec000a7cacb8ccc8de61f2f/freezegun-1.5.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/2c/ef/722b8d71ddf4d48f25f6d78aa2533d505bf3eec000a7cacb8ccc8de61f2f/freezegun-1.5.1.tar.gz
 Summary  : Let your Python tests travel through time
 Group    : Development/Tools
 License  : Apache-2.0
@@ -64,10 +64,10 @@ python3 components for the pypi-freezegun package.
 
 
 %prep
-%setup -q -n freezegun-1.5.0
-cd %{_builddir}/freezegun-1.5.0
+%setup -q -n freezegun-1.5.1
+cd %{_builddir}/freezegun-1.5.1
 pushd ..
-cp -a freezegun-1.5.0 buildavx2
+cp -a freezegun-1.5.1 buildavx2
 popd
 
 %build
@@ -75,7 +75,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1713907819
+export SOURCE_DATE_EPOCH=1715620161
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
